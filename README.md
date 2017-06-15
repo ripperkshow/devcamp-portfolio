@@ -1,24 +1,22 @@
 # Devcamp Portfolio Application
-some content
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+> This is Ruby on Rails 5 application that allows users to create their own portfolios
 
-* Ruby version
+### features
 
-* System dependencies
+-Real time chat engine for comments
+-Blog
+-Portfolio
+-Drag and drop interface
 
-* Configuration
+### code example
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```ruby
+def my-great_method
+  puts "here it is"
+  end
+  ```
+  
+  ```javascript
+alert('Hi there');
+  ```
