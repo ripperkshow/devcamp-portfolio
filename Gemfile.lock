@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/ripperkshow/kayden_view_tool
+  revision: db9975346d8280576736224cf410dccd40a78224
+  specs:
+    kayden_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -190,6 +196,7 @@ DEPENDENCIES
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
   jquery-rails
+  kayden_view_tool!
   listen (~> 3.0.5)
   pg (~> 0.18)
   pry-byebug
