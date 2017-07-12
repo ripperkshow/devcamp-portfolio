@@ -1,4 +1,3 @@
-
 module ApplicationHelper
   def login_helper
     if current_user.is_a?(User)
@@ -16,7 +15,7 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
-  
+
   def copyright_generator
     KaydenViewTool::Renderer.copyright 'Kayden Corbett', 'All rights reserved'
   end
