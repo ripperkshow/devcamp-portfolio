@@ -1,3 +1,4 @@
+
 module ApplicationHelper
   def login_helper style = ''
     if current_user.is_a?(GuestUser)
@@ -19,7 +20,7 @@ module ApplicationHelper
   def copyright_generator
     KaydenViewTool::Renderer.copyright 'Kayden Corbett', 'All rights reserved'
   end
-  
+
   def nav_items
     [
       {
@@ -72,7 +73,7 @@ module ApplicationHelper
   end
 
   def alert_generator msg
-    js add_gritter(msg, title: "Kayden Corbett Portfolio", sticky: false)
+    js add_gritter(msg, title: "Jordan Hudgens Portfolio", sticky: false)
   end
 
 end
