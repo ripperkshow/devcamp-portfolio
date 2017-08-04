@@ -27,14 +27,25 @@ a:hover {
  * Base structure
  */
 
+
 html,
 body {
   height: 100%;
+  font-family: 'Lato', sans-serif;
 }
 body {
   color: #fff;
   text-align: center;
   text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: 'Roboto Slab', serif;
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -200,25 +211,25 @@ body {
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('HardDrivePhotojpeg.mp4') no-repeat;
+  background: image-url('home_bg.png') no-repeat;
   background-size: cover;
 }
 
-// .app-footer {
-//   color: white;
-// }
+.app-footer {
+  color: white;
+}
 
 .tech-news {
   color: black;
   margin: 20px;
 }
 
-.tech-news a {
-  color: green;
-}
-
 .tech-news > .card {
   padding: 30px;
+}
+
+.tech-news a {
+  color: green;
 }
 
 .app-card-container {
@@ -241,11 +252,9 @@ body {
 .card-block {
   margin-top: 5px;
   margin-bottom: 5px;
-
 }
 
 .skill {
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
